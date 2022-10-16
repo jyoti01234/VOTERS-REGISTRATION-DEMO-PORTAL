@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VOTERS'SERVICES PORTAL</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    
+    <nav class="fix">
+      <ul class="flag">
+        <li>
+          <img src="img/flag.png" alt="flag" height="100px" width="140px" />
+        </li>
+        <li class="a">राष्ट्रीय मतदान सेवा <br />डेमो पोर्टल</li>
+        <li class="b">NATIONAL VOTERS' SERVICES<br />DEMO PORTAL</li>
+        <li>
+          <img src="img/vote.png" alt="vote" height="100px" width="120px" />
+        </li>
+      </ul>
+      <div id="nav_two">
+        <div class="left_menu">
+          <p id="m">A+</p>
+          <p id="n">A-</p>
+        </div>
+        <div class="right_menu">
+          <h4>Select Language :</h4>
+          <select name="language" id="lang" value="language">
+            <option value="hindi">Hindi</option>
+            <option value="english">English</option>
+            <option value="odia">odia</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+  
+    <h2>Note: Fields marked with asterisks(*) are mandatory</h2>
+    <section class="bod">
+      <div id="box_one">
+        <p>Type 6</p>
+        <p>[See rule 13(1) and 26]</p>
+      </div>
+      <div id="box_two">
+        <p>
+          Application for inclusion of name in the electrol roll for the first
+          time due to the transfer of voter or any other constituency from any
+          one constituency
+        </p>
+      </div>
+      <div>
+        <form action="">
+          <p class="z">In sevice</p>
+          <p class="x">Electoral Registation Officer,</p>
+          <div class="tot">
+            <div class="p">
+              <p class="y">State<sup>*</sup></p>
+              <select name="state" class="dist">
+                <option value="select">Select</option>
+                <option value="odisha">odisha</option>
+                <option value="assam">assam</option>
+                <option value="haryana">oharyana</option>
+                <option value="karnatak">karnatak</option>
+                <option value="keral">keral</option>
+                <option value="manipur">manipur</option>
+                <option value="nagaland">nagaland</option>
+                <option value="gujurat">gujurat</option>
+                <option value="bihar">bihar</option>
+                <option value="uttar pradesh">uttar pradess</option>
+              </select>
+            </div>
+            <div class="q">
+              <p class="v">District<sup>*</sup></p>
+              <select name="district" class="dist">
+                <option value="balasore">Select</option>
+                <option value="mayurbhanj">maurbhanj</option>
+                <option value="bhadrk">bhadrak</option>
+                <option value="jajpur">balasore</option>
+                <option value="cuttack">cuttack</option>
+              </select>
+            </div>
+          </div>
+          <div class="fly">
+            <p>
+              Legislative Assembly / parlimentary<br />constituency<sup>*</sup>
+            </p>
+            <select name="constituency" id="constituency">
+              <option value="mayurbhanj">Select</option>
+              <option value="bhadrk">bhadrak</option>
+              <option value="jajpur">jajpur</option>
+              <option value="cuttack">cuttack</option>
+            </select>
+          </div>
+          <p class="area">
+            I request that my name be included in electoral rolls for all the
+            aforesaid areas.
+          </p>
+          <div class="rad">
+            <input type="radio" name="First time voter" />First time voter.<br />
+            <input type="radio" name="other meeting area" />Due to transfer from
+            other meeting areas.
+          </div>
+          <p class="roll">
+            Below are specifications in support of my claim to be included in
+            the electoral rolls.
+          </p>
+          <div class="cont">
+            <h4>Mandatory specifications</h4>
+          </div>
+        </form>
+      </div>
+      <form action="">
+        <div class="name">
+          <ul class="name1">
+            <li>
+              (A) Name<sup>*</sup
+              ><input
+                type="text"
+                name="user_name"
+                placeholder="(In English)"
+                id="plc"
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="region"
+                id="region"
+                placeholder="(In Regional)"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="sur">
+          <ul class="sur1">
+            <li>
+              (B)Suarname (if any)<sup>*</sup
+              ><input type="text" placeholder="(In English)" />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="region"
+                id="region"
+                placeholder="(In Regional)"
+              />
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="app1">
+            <li class="eng">
+              (C) Name of the applicant's relative<sup>*</sup
+              ><input type="text" name="user_name" placeholder="(In English)" />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="region"
+                id="reg"
+                placeholder="(In Regional)"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="rela">
+          <p>(D)Type of the relationship<sup>*</sup></p>
+          <select name="regn" id="regn">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="not share">Not share</option>
+          </select>
+        </div>
+
+        <p class="dob">(E)Date Of Birth<sup>*</sup> <input type="date" /></p>
+        <p class="gen">
+          (F)Gender <sup>*</sup>
+          <select name="gend" id="gend">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+        </p>
+      </form>
+      <div class="add">
+        <h4>(G)Current addres, whose application is nominally resident</h4>
+      </div>
+      <form action="">
+        <div class="par2">
+          <p class="hom">
+            House no. <sup>*</sup
+            ><input type="text" placeholder="(In English)" />
+          </p>
+          <p class="hom">
+            Street area / location <sup>*</sup
+            ><input type="text" placeholder="(In English)" />
+          </p>
+          <p class="hom">
+            City / Village <sup>*</sup
+            ><input type="text" placeholder="(In English)" />
+          </p>
+          <p class="hom">
+            Post Office <sup>*</sup
+            ><input type="text" placeholder="(In English)" />
+          </p>
+          <p class="hom">Pin Code<sup>*</sup><input type="text" /></p>
+        </div>
+        <div class="ter">
+          <p>State /Union Territory <sup>*</sup></p>
+          <select name="union" id="union">
+            <option value="select">select</option>
+          </select>
+        </div>
+        <p id="teer">
+          Family / Neighbour Epic No. <sup>*</sup><input type="text" />
+        </p>
+      </form>
+      <div class="add">
+        <h4>Optional specialties</h4>
+      </div>
+      <form action="">
+        <div class="par3">
+          <p class="hom">(T) Disability (if any)</p>
+          <div class="flx">
+            <p class="idd">
+              <input type="checkbox" name="visual" id="" />Visual impairment
+            </p>
+            <p class="idd">
+              <input type="checkbox" />Speech and hearing impairment
+            </p>
+            <p class="idd"><input type="checkbox" />Motion disabiling</p>
+            <p class="idd"><input type="checkbox" />others</p>
+          </div>
+        </div>
+        <p class="iddd">
+          (Th)Email ID (optional)<input type="email" placeholder="email" />
+        </p>
+        <p class="iddd">
+          (D) mobile number (optional) +91
+          <input type="tel:+" placeholder="mobile number" />
+        </p>
+      </form>
+      <div class="add">
+        <h4>
+          Uploading supporting documents(Supported formats.jpg, .png, .bmp,
+          .jpeg)(max.2MB)<span>List of supported documents</span>
+        </h4>
+      </div>
+      <form action="">
+        <div>
+          <p class="homm">
+            Your photo <sup>*</sup><br />
+            <input type="file" name="photo" id="" />
+          </p>
+          <p class="homm">
+            Age proof <sup>*</sup><br />
+            <input type="file" name="age" id="" />
+          </p>
+          <p class="homm">
+            Address proof <sup>*</sup><br />
+            <input type="file" name="address" id="" />
+          </p>
+        </div>
+      </form>
+      <div class="add">
+        <h4>Declaration</h4>
+      </div>
+      <!-- last page -->
+      <div class="end">
+        <p>
+          I decide i declare that according to my best knowledge and belief
+          <br />
+          Iam a citizen of India and of my birth;
+        </p>
+        <p id="tnt">City / village: <input type="text" name="text" /></p>
+      </div>
+      <div class="omg">
+        <p>
+          Select State <sup>*</sup>
+          <select name="state" class="dist">
+            <option value="select">Select</option>
+            <option value="odisha">odisha</option>
+            <option value="assam">assam</option>
+            <option value="haryana">oharyana</option>
+            <option value="karnatak">karnatak</option>
+            <option value="keral">keral</option>
+            <option value="manipur">manipur</option>
+            <option value="nagaland">nagaland</option>
+            <option value="gujurat">gujurat</option>
+            <option value="bihar">bihar</option>
+            <option value="uttar pradesh">uttar pradess</option>
+          </select>
+        </p>
+        <p class="bhj">
+          District<sup>*</sup>
+          <select name="district" class="dist">
+            <option value="balasore">Select</option>
+            <option value="mayurbhanj">maurbhanj</option>
+            <option value="bhadrk">bhadrak</option>
+            <option value="jajpur">balasore</option>
+            <option value="cuttack">cuttack</option>
+          </select>
+        </p>
+      </div>
+      <p class="hommm">Date <sup>*</sup><input type="date" /></p>
+      <p id="am">
+        (ii) I am a nominally resident in the address given in the
+        above(date,month,year) above;
+      </p>
+      <p id="am">
+        I have not applied to include my name in theelectoral roll for any other
+        constituency;
+      </p>
+      <p id="amm">
+        <input type="radio" name="radio" id="" />(iv) My name has not been
+        already included in the electoral rolls for this or any other assembly /
+        parliamentary constituency
+      </p>
+      <p id="amm">Or</p>
+      <p id="amm">
+        <input type="radio" name="radio" id="" />My name would have been
+        included in alectoral rolls of the state's constituency, in which i was
+        already residing in the address mentioned
+      </p>
+      <p id="am">
+        below, and if so, then i request that it be removed from that electoral
+        roll.Go.
+      </p>
+      <div class="suar">
+        <p>location <sub>*</sub> <input type="text" name="" id="" /></p>
+        <p>Date <sup>*</sup> <input type="date" /></p>
+      </div>
+      <p id="am">
+        I am afraid that the statement or declaration, which is false,to whome i
+        know it or believe that it is false or i do not belive in being true,the
+        people,s<br />
+        Representation ACT, 1950(43 of 1950) is punishable under section 31 .
+      </p>
+      <p class="cap">
+        Captcha <img src="img/captcha.png" height="40px" />
+        <input type="text" placeholder="captcha" />
+      </p>
+      <div class="subb">
+        <input type="reset" value="Reset" id="sub" />
+        <input type="submit" value="Submit" id="sub" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy 2022 Suven Consulants and Technology Pvt. Ltd</p>
+      <p>This project credit goes to Jyotiprakash chanda</p>
+    </footer>
+  </body>
+</html>
